@@ -1,0 +1,7 @@
+{
+  "parent_link": "Link-5",
+  "left": {"xyz": [0.29, 0.07435, 0.205], "rpy": [-1.5707963267948966, -1.5707963267948966, 0]},
+  "right": {"xyz": [-0.29, 0.07435, 0.205], "rpy": [-1.5707963267948966, -1.5707963267948966, 0]},
+  "status": "visual_alignment_unverified",
+  "basis": "The arm base shells in the supplied Link-5.STL are centred at x=+/-0.29, z=0.205 and start at y=0.07435. Arm local Z aligns with the shell's Y axis; local X points towards the original arm's joint2 centre at z=0.225. These are CAD visual alignments, not measured robot mounting extrinsics. Left/right assignment follows the model's forward direction (+local Z)."
+}

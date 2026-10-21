@@ -1,0 +1,73 @@
+{
+  "model": "robots/x2/x2-live.urdf",
+  "model_label": "x2 · 双臂关节绑定",
+  "meshes": [
+    "base_link.STL",
+    "Link-1.STL",
+    "Link-2.STL",
+    "LINK_3.STL",
+    "Link-4.STL",
+    "Link-5-body.STL",
+    "r5/base_link.STL",
+    "r5/link1.STL",
+    "r5/link2.STL",
+    "r5/link3.STL",
+    "r5/link4.STL",
+    "r5/link5.STL",
+    "r5/link6.STL",
+    "r5/link7.STL",
+    "r5/link8.STL"
+  ],
+  "message_type": "arm_control/JointInformation",
+  "topics": {
+    "left": "/joint_information",
+    "right": "/joint_information2"
+  },
+  "joint_names": [
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "model_joint_names": {
+    "left": [
+      "left_joint1",
+      "left_joint2",
+      "left_joint3",
+      "left_joint4",
+      "left_joint5",
+      "left_joint6"
+    ],
+    "right": [
+      "right_joint1",
+      "right_joint2",
+      "right_joint3",
+      "right_joint4",
+      "right_joint5",
+      "right_joint6"
+    ]
+  },
+  "binding_note": "当前模型未找到配置中的机械臂关节，请重新加载 x2 双臂模型。",
+  "input_unit": "rad",
+  "signs": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "offsets_rad": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "stale_after_seconds": 2,
+  "stream_hz": 20,
+  "model_notice": "双臂安装关系按整机 STL 支座对齐，尚未标定；当前用于姿态可视化，后续需实机核对安装、方向和零位。"
+}
